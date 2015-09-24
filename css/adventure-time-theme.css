@@ -351,7 +351,7 @@ PANELS CONFIGURATIONS
 .darkblue-panel .darkblue-header {
     background: transparent;
     padding: 3px;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
 }
 .darkblue-panel h1 {
     color: #f2f2f2;
@@ -922,12 +922,10 @@ label {
     border-color: #41cac0;
 }
 
-
-
 /*LOGIN CONFIGURATION PAGE*/
 .form-login {
     max-width: 330px;
-    margin: 100px auto 0;
+    margin: 100px auto;
     background: #fff;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -945,7 +943,7 @@ label {
     text-transform: uppercase;
     font-weight: 300;
 }
-.login-wrap {
+.login-wrap{
     padding: 20px;
 }
 .login-wrap .registration {
@@ -957,6 +955,21 @@ label {
     margin-bottom: 15px;
 }
 
+.form-login i{
+    padding: 0px 4px;
+}
+
+.form-login .btn-default{
+    background-color: #e6e6e6;
+    border-color: transparent;
+}
+
+.form-login .btn-default:hover{
+    background-color: #ccc;
+    border-color: transparent;
+}
+
+/**/
 .sidebar-toggle-box {
     float: left;
     padding-right: 15px;
