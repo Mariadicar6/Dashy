@@ -276,6 +276,10 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     margin-top: 62px;
 }
 
+.pd-10{
+    padding: 10px;
+}
+
 .pt-25 {
     padding-top: 25px;
 }
@@ -297,6 +301,19 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     margin: 0 !important;
 }
 
+.white{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+.box-purple{
+    background-color: #9c4c9d;
+    padding: 5px;
+}
+
+.gallery img{
+    width: 100%;
+}
 /* *************************************************************************************
 PANELS CONFIGURATIONS
 *************************************************************************************** */
@@ -407,7 +424,7 @@ PANELS CONFIGURATIONS
     margin-left: 15px;
 }
 .white-panel .white-header {
-    background: #f4f4f4;
+    background: #f4f4f4; /*plomo*/
     padding: 3px;
     margin-bottom: 15px;
     color: #c6c6c6;
@@ -477,9 +494,7 @@ PANELS CONFIGURATIONS
     padding-top: 15px;
     padding-bottom: 5px;
 }
-.content-panel h4 {
-    margin-left: 10px;
-}
+
 
 /*WEATHER PANELS*/
 
@@ -964,12 +979,12 @@ label {
     padding: 0px 4px;
 }
 
-.form-login .btn-default{
+.form-login .btn-default, .theme .btn-default{
     background-color: #e6e6e6;
     border-color: transparent;
 }
 
-.form-login .btn-default:hover{
+.form-login .btn-default:hover , .theme .btn-default:hover{
     background-color: #ccc;
     border-color: transparent;
 }

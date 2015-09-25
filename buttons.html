@@ -20,10 +20,251 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
+  <div class="header">
+    <div class="darkblue-panel">
+      <div class="darkblue-header ">
+        <div class="black-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-10">
+              <div class="sidebar-toggle-box">
+                <i class="fa fa-bars"></i>
+              </div>
+              <a class="logo">Adventure time: Dashboard</a>
+            </div>              
+            <div class="col-xs-2">
+              <ul class="top-menu">
+                <li>
+                  <div class="logout">
+                    Logout
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <div id="sidebar" class="sidebar-closed">      
+      <ul class="sidebar-menu">
+      <div class="text-center">
+        <img src="img/profile_avatar.png" class="img-circle" width="60" alt="">
+        <p class="white">Bonnibel Bubblegum</p>
+      </div>
+        <li class=""><!-- active -->
+          <a href=""><i class="fa fa-tachometer"></i>Dashboard</a>
+            <ul class="sub">
+              <li><a href="">holabu</a></li>
+            </ul>
+        </li>
+        <li><a href="" ><i class="fa fa-desktop"></i>Buttons</a></li>
+        <li><a href=""><i class="fa fa-desktop"></i>Progress bars</a></li>
+        <li><a href=""><i class="fa fa-cogs"></i>Forms</a></li>
+        <li><a href="" class="active"><i class="fa fa-table"></i>Data tables</a></li>
+        <li><a href=""><i class="fa fa-tasks"></i>Gallery</a></li>
+        <li><a href=""><i class="fa fa-book"></i>Login Page</a></li>
+      </ul>       
+    </div>
+    <div id="container" class="container ">
+      <div id="main-content">
+        <div class="">
+          <section class="pd-10">
+           <div class="row mt mb">
+            <div class="col-sm-6">
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4>>Basic Buttons</h4>
+                    <!-- Standard button -->
+                    <button type="button" class="btn btn-default">Default</button>
 
-  <!--Inserta tu codigo aqui-->
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <button type="button" class="btn btn-primary">Primary</button>
+
+                    <!-- Indicates a successful or positive action -->
+                    <button type="button" class="btn btn-success">Success</button>
+
+                    <!-- Contextual button for informational alert messages -->
+                    <button type="button" class="btn btn-info">Info</button>
+
+                    <!-- Indicates caution should be taken with this action -->
+                    <button type="button" class="btn btn-warning">Warning</button>
+
+                    <!-- Indicates a dangerous or potentially negative action -->
+                    <button type="button" class="btn btn-danger">Danger</button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4>>Buttons Round</h4>
+                    <!-- Standard button -->
+                    <button type="button" class="btn btn-default">Default</button>
+
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <button type="button" class="btn btn-primary">Primary</button>
+
+                    <!-- Indicates a successful or positive action -->
+                    <button type="button" class="btn btn-success">Success</button>
+
+                    <!-- Contextual button for informational alert messages -->
+                    <button type="button" class="btn btn-info">Info</button>
+
+                    <!-- Indicates caution should be taken with this action -->
+                    <button type="button" class="btn btn-warning">Warning</button>
+
+                    <!-- Indicates a dangerous or potentially negative action -->
+                    <button type="button" class="btn btn-danger">Danger</button>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12 theme">
+                    <h4>>Theme Buttons</h4>
+                    <!-- Standard button -->
+                    <button type="button" class="btn btn-default">Theme</button>
+
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <button type="button" class="btn btn-default">Theme 02</button>
+
+                    <!-- Indicates a successful or positive action -->
+                    <button type="button" class="btn btn-default">Theme 03</button>
+
+                    <!-- Contextual button for informational alert messages -->
+                    <button type="button" class="btn btn-default">Theme 04</button>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4>>Button Group</h4>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default">Left</button>
+                      <button type="button" class="btn btn-default">Middle</button>
+                      <button type="button" class="btn btn-default">Right</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4>>Button Nesting</h4>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default">1</button>
+                      <button type="button" class="btn btn-default">2</button>
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Dropdwown <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">1</a></li>
+                          <li><a href="#">2</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12 theme">
+                    <h4>>Split Buttons</h4>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default">Action</button>
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12 theme">
+                    <h4>>Buttons Sizes</h4>
+                    <p>
+                      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                      <button type="button" class="btn btn-default btn-lg">Large button</button>
+                    </p>
+                    <p>
+                      <button type="button" class="btn btn-primary">Default button</button>
+                      <button type="button" class="btn btn-default">Default button</button>
+                    </p>
+                    <p>
+                      <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                      <button type="button" class="btn btn-default btn-sm">Small button</button>
+                    </p>
+                    <p>
+                      <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+                      <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4>>Blog Buttons</h4>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+                    <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="content-panel mb">
+            <div class="row pd-10">
+              <div class="col-sm-12">
+                <h4>>Hover Rows</h4>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Firstname</th>
+                      <th>Lastname</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>John</td>
+                      <td>Doe</td>
+                      <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                      <td>Mary</td>
+                      <td>Moe</td>
+                      <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                      <td>July</td>
+                      <td>Dooley</td>
+                      <td>july@example.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+        </div>
+      </div>
+    </div>
+
 
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
