@@ -204,7 +204,7 @@ ul.sidebar-menu li a.active i {
 
 .header, .footer {
     min-height: 60px;
-    padding: 0 15px;
+    padding: 0 0px;
 }
 
 .header {
@@ -273,7 +273,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
 /* utils */
 .mt {
-    margin-top: 25px;
+    margin-top: 62px;
 }
 
 .pt-25 {
@@ -287,6 +287,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .ml {
     margin-left: 5px;
 }
+
 
 .no-padding {
     padding: 0 !important;
@@ -631,6 +632,10 @@ PANELS CONFIGURATIONS
     color: #fff;
     text-align: center;
     border-radius: 100%;
+}
+
+iframe{
+    width: 100%;
 }
 
 /* Soptify Panel */
@@ -1102,6 +1107,10 @@ label {
 .box1 span {
     font-size: 50px;
 
+}
+
+.box1 i{
+    font-size: 4em;
 }
 
 .box1 h3 {
