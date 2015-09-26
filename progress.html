@@ -20,10 +20,198 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
+  <div class="header">
+    <div class="darkblue-panel">
+      <div class="darkblue-header ">
+        <div class="black-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-10">
+              <div class="sidebar-toggle-box">
+                <i class="fa fa-bars"></i>
+              </div>
+              <a class="logo">Adventure time: Dashboard</a>
+            </div>              
+            <div class="col-xs-2">
+              <ul class="top-menu">
+                <li>
+                  <div class="logout">
+                    Logout
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <div id="sidebar" class="sidebar-closed">      
+      <ul class="sidebar-menu">
+      <div class="text-center">
+        <img src="img/profile_avatar.png" class="img-circle" width="60" alt="">
+        <p class="white">Bonnibel Bubblegum</p>
+      </div>
+        <li class=""><!-- active -->
+          <a href="dashboard.html"><i class="fa fa-tachometer"></i>Dashboard</a>
+            <ul class="sub">
+              <li><a href="">holabu</a></li>
+            </ul>
+        </li>
+        <li><a href="buttons.html"><i class="fa fa-desktop"></i>Buttons</a></li>
+        <li><a href="progress.html"  class="active"><i class="fa fa-desktop"></i>Progress bars</a></li>
+        <li><a href="form_component.html"><i class="fa fa-cogs"></i>Forms</a></li>
+        <li><a href="basic_tables.html"><i class="fa fa-table"></i>Data tables</a></li>
+        <li><a href="gallery.html"><i class="fa fa-tasks"></i>Gallery</a></li>
+        <li><a href="login.html"><i class="fa fa-book"></i>Login Page</a></li>
+      </ul>       
+    </div>
+    <div id="container" class="container">
+      <div id="main-content">
+        <div class="">
+          <section class="pd-10">
+           <div class="row mt mb">
+            <div class="col-sm-6">
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4><i class="fa fa-angle-right"></i> Basic Progress Bars</h4>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                        <span class="sr-only">40% Complete (success)</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                        <span class="sr-only">20% Complete</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                        <span class="sr-only">60% Complete (warning)</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                        <span class="sr-only">80% Complete (danger)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4><i class="fa fa-angle-right"></i> Stripped Progress Bars</h4>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                        <span class="sr-only">40% Complete (success)</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                        <span class="sr-only">20% Complete</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                        <span class="sr-only">60% Complete (warning)</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                        <span class="sr-only">80% Complete (danger)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12 theme">
+                    <h4><i class="fa fa-angle-right"></i> Animated Progress Bars</h4>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                        <span class="sr-only">45% Complete</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4><i class="fa fa-angle-right"></i> Gritter Examples</h4>
+                    <p>Click on bellow buttons to check it out.</p>
+                    <button type="button" class="btn btn-default">Regular</button>
+                    <button type="button" class="btn btn-success">Sticky</button>
+                    <button type="button" class="btn btn-info">Imageless</button>
+                    <button type="button" class="btn btn-warning">Light</button>
+                    <button type="button" class="btn btn-danger">Remove all</button>  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12 theme">
+                    <h4><i class="fa fa-angle-right"></i> Alerts Examples</h4>
+                    <div class="alert alert-success" role="alert"><strong>Well done!</strong> You successfully read this important alert message.</div>
+                    <div class="alert alert-info" role="alert"><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</div>
+                    <div class="alert alert-warning" role="alert"><strong>Warning!</strong> Better check yourself, you're not looking too good.</div>
+                    <div class="alert alert-danger" role="alert"><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4><i class="fa fa-angle-right"></i> Dismissable Alert</h4>
+                    <div class="alert alert-warning alert-dismissible" role="alert">
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <strong>Warning!</strong> Better check yourself, you're not looking too good.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12 theme">
+                    <h4><i class="fa fa-angle-right"></i> Badges</h4>
+                    <a href="#"><span class="badge">5</span></a>
+                    <a href="#"><span class="badge">10</span></a>
+                    <a href="#"><span class="badge">15</span></a>
+                    <a href="#"><span class="badge">20</span></a>
+                    <a href="#"><span class="badge">25</span></a>
+                    <a href="#"><span class="badge">30</span></a>
+                    <a href="#"><span class="badge">35</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12 theme">
+                    <h4><i class="fa fa-angle-right"></i> Labels</h4>
+                    <span class="label label-default">Default</span>
+                    <span class="label label-primary">Primary</span>
+                    <span class="label label-success">Success</span>
+                    <span class="label label-info">Info</span>
+                    <span class="label label-warning">Warning</span>
+                    <span class="label label-danger">Danger</span>                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        </div>
+      </div>
+    </div>
 
-    <!--Inserta tu codigo aqui-->
 
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
