@@ -20,10 +20,224 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
+  <div class="header">
+    <div class="darkblue-panel">
+      <div class="darkblue-header ">
+        <div class="black-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-10">
+              <div class="sidebar-toggle-box">
+                <i class="fa fa-bars"></i>
+              </div>
+              <a class="logo">Adventure time: Dashboard</a>
+            </div>              
+            <div class="col-xs-2">
+              <ul class="top-menu">
+                <li>
+                  <div class="logout">
+                    Logout
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <div id="sidebar" class="sidebar-closed">      
+      <ul class="sidebar-menu">
+      <div class="text-center">
+        <img src="img/profile_avatar.png" class="img-circle" width="60" alt="">
+        <p class="white">Bonnibel Bubblegum</p>
+      </div>
+        <li class=""><!-- active -->
+          <a href="dashboard.html"><i class="fa fa-tachometer"></i>Dashboard</a>
+            <ul class="sub">
+              <li><a href="">holabu</a></li>
+            </ul>
+        </li>
+        <li><a href="buttons.html"><i class="fa fa-desktop"></i>Buttons</a></li>
+        <li><a href="progress.html"><i class="fa fa-desktop"></i>Progress bars</a></li>
+        <li><a href="form_component.html" class="active"><i class="fa fa-cogs"></i>Forms</a></li>
+        <li><a href="basic_tables.html"><i class="fa fa-table"></i>Data tables</a></li>
+        <li><a href="gallery.html"><i class="fa fa-tasks"></i>Gallery</a></li>
+        <li><a href="login.html"><i class="fa fa-book"></i>Login Page</a></li>
+      </ul>       
+    </div>
+    <div id="container" class="container">
+      <div id="main-content">
+            <section class="pd-10">
+              <div class="row mt">
+                <div class="col-sm-12">
+                  <h3><i class="fa fa-angle-right"></i> Form Components</h3>
+                </div>
+              </div>
+              <div class="content-panel mb" >
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4><i class="fa fa-angle-right"></i> Form Elements</h4>
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Default</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" placeholder="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Help text</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" placeholder="">
+                          <p class="help-block">Example block-level help text here.</p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Rounder</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control rounded" placeholder="">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Input focus</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control focusedInput" placeholder="This is focused...">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Disabled</label>
+                        <div class="col-sm-10">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">PlaceHolder</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" placeholder="placeholder">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1" class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                          <p class="form-control-static">email@example.com</p>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4><i class="fa fa-angle-right"></i> Inline Form</h4>
+                    <form class="form-inline">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Enter email">
+                      </div>
+                      <div class="form-group theme">
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Password">
+                        <button type="submit" class="btn btn-default ">Sign in</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12 theme">
+                    <h4><i class="fa fa-angle-right"></i> Input Messages</h4>
+                    <form class="form-horizontal">
+                      <div class="form-group has-success">
+                        <label class="control-label col-sm-2 " for="inputSuccess1">Input with success</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputSuccess1">
+                        </div>
+                      </div>
+                      <div class="form-group has-warning">
+                        <label class="control-label col-sm-2 " for="inputWarning1">Input with warning</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputWarning1">
+                        </div>
+                      </div>
+                      <div class="form-group has-error">
+                        <label class="control-label col-sm-2 " for="inputError1">Input with error</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputError1">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="content-panel mb">
+                <div class="row pd-10">
+                  <div class="col-sm-12">
+                    <h4><i class="fa fa-angle-right"></i> Checkboxes, Radios & Selects</h4>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">
+                        Option one is this and that&mdash;be sure to include why it's great
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Option one is this and that&mdash;be sure to include why it's great
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        Option two can be something else and selecting it will deselect option one
+                      </label>
+                    </div>
+                    <hr>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                    </label>
+                    <hr>
+                    <select class="form-control mb-10">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                    <select multiple class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+        </section>
+      </div>
+    </div>
 
-   <!--Inserta tu codigo aqui-->
 
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>

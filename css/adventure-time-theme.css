@@ -280,6 +280,9 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     padding: 10px;
 }
 
+.mb-10{
+    margin-bottom: 10px;
+}
 .pt-25 {
     padding-top: 25px;
 }
@@ -314,6 +317,19 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .gallery img{
     width: 100%;
 }
+
+.rounded{
+    border-radius: 20em;
+}
+
+.focusedInput{
+    border-color: red;
+    outline: 0;
+    outline: thin dotted \9;
+    -moz-box-shadow: 0 0 8px red;
+    box-shadow: 0 0 8px red !important;
+}
+
 /* *************************************************************************************
 PANELS CONFIGURATIONS
 *************************************************************************************** */
