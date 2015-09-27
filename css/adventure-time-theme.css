@@ -368,6 +368,14 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .white-panel{
     font-size: 0.8em;
 }
+
+.table-striped .btn{
+    padding: 0px 5px;
+}
+
+.no-margint{
+    margin-top: 0px;
+}
 /* *************************************************************************************
 PANELS CONFIGURATIONS
 *************************************************************************************** */
@@ -1179,7 +1187,7 @@ label {
 }
 
 .box1 i{
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .box1 h3 {
@@ -1192,7 +1200,7 @@ label {
 
 .box0 p {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     color: #f2f2f2;
 }
 
