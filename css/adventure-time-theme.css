@@ -307,7 +307,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .white{
     color: white;
     font-size: 1.2em;
-    font-weight: 800;
+    font-weight: 600;
 }
 .box-purple{
     background-color: #9c4c9d;
@@ -329,7 +329,45 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     -moz-box-shadow: 0 0 8px red;
     box-shadow: 0 0 8px red !important;
 }
+.box-purple{
+    color: white;
+    text-align: center;  
+    margin-bottom: 10px;  
+}
+.clock{
+    padding-top: 2%;
+}
+.clock i{
+    background: #41cac0;
+    font-size: 1.5em !important;
+    color: white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;    
+}
 
+.showback hr{
+    margin: 4%;
+}
+
+.showback span{
+    color: blue;
+}
+
+.showback p{
+    margin: 0px;
+    font-size: 0.9em;
+}
+
+.showback img{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.white-panel{
+    font-size: 0.8em;
+}
 /* *************************************************************************************
 PANELS CONFIGURATIONS
 *************************************************************************************** */
@@ -451,7 +489,7 @@ PANELS CONFIGURATIONS
 }
 
 .white-panel i {
-    color: #68dff0;
+    /*color: #68dff0;*/
     padding-right: 4px;
     font-size: 14px;
 }
@@ -737,9 +775,9 @@ iframe{
 }
 .badge-popular {
     background: #3498db;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     font-size: 13px;
     color: #fff;
     text-align: center;
